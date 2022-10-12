@@ -2,7 +2,7 @@
 ```
 docker-compose -f docker-compose-all.yml up
 ```
-then visit Visit [localhost:3000](http://localhost:3000)
+then visit [localhost:3000](http://localhost:3000)
 
 ## Run tests:
 ```
