@@ -1,0 +1,25 @@
+#comments-section {
+  padding-left: 10px;
+  padding-right: 10px;
+  max-height: calc(100vh - 150px);
+  overflow-y: auto;
+}
+
+#post-comment-area {
+  padding-left: 10px;
+  padding-right: 10px;
+  position: fixed;
+  bottom: 0px;
+  min-height: 150px;
+  width: calc(100% - 20px);
+}
+
+#post-comment-area textarea {
+  height: 100px;
+  max-height: 100px;
+  width: 100%;
+}
+
+.author {
+  text: bold;
+}

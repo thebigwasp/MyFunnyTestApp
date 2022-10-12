@@ -1,0 +1,17 @@
+version: "3"
+services:
+  backend:
+    build: ./backend
+    depends_on:
+      - mongo
+
+  mongo:
+    image: mongo:6.0.2
+    environment:
+      MONGO_INITDB_ROOT_USERNAME: root
+      MONGO_INITDB_ROOT_PASSWORD: root
+
+  frontend:
+    build: ./frontend
+    ports:
+      - 3000:3000
